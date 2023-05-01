@@ -30,6 +30,7 @@ router.get("/:id", async (req, res) => {
 router.post('/', (req, res) => {
   Product.create(req.body)
     .then((product) => {
+      console.log(req.body)
       if (req.body.tagIds.length) {
         const productTagIdArr = req.body.tagIds.map((tag_id) => {
           return {
@@ -49,6 +50,7 @@ router.post('/', (req, res) => {
 });
 
 router.put('/:id', (req, res) => {
+  console.log("test")
   Product.update(req.body, {
     where: {
       id: req.params.id,
@@ -78,6 +80,7 @@ router.put('/:id', (req, res) => {
     })
     .then((updatedProductTags) => res.json(updatedProductTags))
     .catch((err) => {
+      console.log(err)
       res.status(400).json(err);
     });
 });
