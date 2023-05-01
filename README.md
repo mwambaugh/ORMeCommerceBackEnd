@@ -28,7 +28,7 @@ Internet retail, also known as e-commerce, is the largest sector of the electron
 My challenge was to build the back end for an e-commerce site. My goal was to take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
 
 ## Instalation
-To install this app and make it your own you will need to use such commands such as `npm i` , `npm install mysql2`, sequalize, express, dotenv, and `npm run start`. 
+To install this app and make it your own you will need to use such commands such as `npm i` , `npm install mysql2`, sequalize, express, dotenv, and `npm run start`. Tests will need to use [insomnia](https://insomnia.rest/).
  
 ## Links
 []()   
