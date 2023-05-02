@@ -31,7 +31,7 @@ My challenge was to build the back end for an e-commerce site. My goal was to ta
 To install this app and make it your own you will need to use such commands such as `npm i` , `npm install mysql2`, sequalize, express, dotenv, and `npm run start`. Tests will need to use [insomnia](https://insomnia.rest/).
  
 ## Links
-[]()   
+[Testing Routes Demo](https://watch.screencastify.com/v/zxfutI945amEiGO1kOuE)   
 
 ## Contributing 
 This project was based off class starter code cloned from:[here](https://github.com/coding-boot-camp/fantastic-umbrella). This assignment was worked on by student, M.C. Wambaugh, with the support of her TA's during office hours and meeting regularly with a tutor, and her classrom peers and huge thanks to the tutors at AskBCS in slack for git hub help and moving the repo/directory. The student also used universial resources such as  YouTube.com, shields.io/, and our class repo examples. Many thanks to those who continue to support learning in the technological community.
